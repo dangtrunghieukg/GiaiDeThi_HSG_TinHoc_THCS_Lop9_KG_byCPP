@@ -20,7 +20,7 @@ int ToHopCkn(int k, int n){
     ketQua = ketQua / GiaiThua(k);
     return ketQua;
 }
-//Thuật toán liệt kê Chỉnh hợp
+//Thuật toán liệt kê Tổ hợp chập k của n phần tử
 #define maxN  20
 int x[maxN]={0};
 void printArray(int a[], int n){
