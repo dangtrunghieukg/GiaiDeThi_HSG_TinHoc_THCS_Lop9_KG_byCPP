@@ -17,7 +17,7 @@ bool isSoHoanHao(int n){
 int main(){
     int n;
     cout << "Nhap N: "; cin >> n;
-     //Tạo mảng động có n phần tử
+     //Tạo mảng động có n phần tử, giống kiểu con trỏ.
     int *arrMang = new int(n);
     for(int i=0; i<n; i++){
         cout << "A["<<i+1<<"]=";
