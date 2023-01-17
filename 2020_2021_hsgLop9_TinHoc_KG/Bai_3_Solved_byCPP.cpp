@@ -17,7 +17,8 @@ bool isSoHoanHao(int n){
 int main(){
     int n;
     cout << "Nhap N: "; cin >> n;
-    int *arrMang = new int(n); //Tạo mảng động có n phần tử
+     //Tạo mảng động có n phần tử
+    int *arrMang = new int(n);
     for(int i=0; i<n; i++){
         cout << "A["<<i+1<<"]=";
         cin >> arrMang[i];
