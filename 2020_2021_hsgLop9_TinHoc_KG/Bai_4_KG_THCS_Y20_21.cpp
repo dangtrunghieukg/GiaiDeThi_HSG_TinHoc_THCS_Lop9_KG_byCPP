@@ -20,6 +20,7 @@ int main(){
         int demNguoc = 0;
         int demXuoi = 0;
         bool demNguocOk = false;
+        //Đếm ngược lại xem có thỏa hay không
         while(tuoiCon>0){
             tuoiBo -= 1;
             tuoiCon -= 1;
