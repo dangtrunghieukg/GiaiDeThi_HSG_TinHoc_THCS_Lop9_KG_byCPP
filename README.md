@@ -3,4 +3,3 @@
 # Giải bằng ngôn ngữ C++
 # Mục đích, giúp các em học sinh vùng quê tự học, tự nghiên cứu C/C++.
 # Nội dung lời giải chỉ là giải theo cá nhân tác giả
-# Có sự cộng tác của nhóm học sinh đang ôn HSG môn Tin (Phát, Duy, Chân)
