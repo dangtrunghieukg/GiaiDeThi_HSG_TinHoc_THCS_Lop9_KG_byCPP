@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//Khai báo các chứa chữ số các hàng.
+//Khai báo các chữ số các hàng.
 string arrHangDonVi[10]={"khong","mot","hai","ba","bon","nam","sau","bay","tam","chin"};
 string arrHangChuc[10]={"linh","muoi","hai muoi","ba muoi","bon muoi","nam muoi","sau muoi","bay muoi","tam muoi","chin muoi"};
 string arrHangTram[10]={"khong tram","Mot tram","Hai tram","Ba tram","Bon tram","Nam tram","Sau tram","Bay tram","Tam tram","Chin tram"};
