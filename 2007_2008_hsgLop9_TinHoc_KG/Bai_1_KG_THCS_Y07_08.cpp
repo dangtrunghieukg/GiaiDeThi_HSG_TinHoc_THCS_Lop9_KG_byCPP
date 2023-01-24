@@ -8,7 +8,7 @@ int arrChuaTatCaHoanVi[999999]={0};
 int demSoHoanVi = 0;
 string strTemp = "";
 void XuatHoanVi(){
-    for(int i= 1; i<=n; i++){
+    for(int i=1; i<=n; i++){
         strTemp += to_string(arrHoanVi[i]);
     }
     arrChuaTatCaHoanVi[demSoHoanVi] = stoi(strTemp);
