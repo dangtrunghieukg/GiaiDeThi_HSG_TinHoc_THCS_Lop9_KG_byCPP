@@ -26,9 +26,9 @@ int main()
     string PhanTich="";
     if(isHoanHao(n, PhanTich)==true){
         cout<<"So vua nhap la so hoan hao"<<endl;
-        cout<<"(giai thich:"<<n<<" la so hoan hao vi "<<n<<"="<<PhanTich.erase(PhanTich.length()-1, 1)<<")"<<endl;
+        cout<<"(Giai thich:"<<n<<" la so hoan hao vi "<<n<<"="<<PhanTich.erase(PhanTich.length()-1, 1)<<")"<<endl;
     }else{
-        cout<<"So vua nhap khong la so hoan hao";
+        cout<<"So vua nhap KHONG la so hoan hao";
     }
 
     return  0;
