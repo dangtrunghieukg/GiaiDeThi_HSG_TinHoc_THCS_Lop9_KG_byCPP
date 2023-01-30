@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-bool ktraSo(int &N);
+bool ktraSo(int N);
 int N;
 string chuoi="";
 int main(){
@@ -34,7 +34,7 @@ int main(){
     }
     return 0;
 }
-bool ktraSo(int &N){
+bool ktraSo(int N){
     bool kq=true;
     if(N<2){
         return false;

@@ -41,7 +41,7 @@ int main()
             }
         }
 
-    cout << "Day so theo yeu cau la:";
+    cout << "Day so theo yeu cau la: ";
     for (int i=1; i<=N; i++)
         cout << A[i] << " ";
 
