@@ -1,10 +1,12 @@
 #include <iostream>
+#include <cctype>
 using namespace std;
 string s,x;
 int main(){
     cout<<"Nhap xau 1:"; cin>>s;
     cout<<"Nhap xau 2:"; cin>>x;
-    x="hocsinhgioi";
+    for(int i=0; i<s.length(); i++) s[i] = tolower(s[i]);
+    for(int i=0; i<x.length(); i++) x[i] = tolower(x[i]);
     char temp;
     for(int i=0; i<s.length(); i++){
         for(int j=0; j<s.length(); j++){
@@ -35,7 +37,8 @@ int main(){
             x.erase(i, 1);
         }
     }
-
+    cout << s << endl;
+    cout << x << endl;
     if(s==x){
         cout<<"Hai xau la ban be"<<endl;
     }else{
