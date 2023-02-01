@@ -2,7 +2,7 @@
 using namespace std;
 
 int n, X;
-int arrBool[20] = {0};
+int arrBool[20];
 int arrHoanVi[20];
 int arrChuaTatCaHoanVi[999999]={0};
 int demSoHoanVi = 0;

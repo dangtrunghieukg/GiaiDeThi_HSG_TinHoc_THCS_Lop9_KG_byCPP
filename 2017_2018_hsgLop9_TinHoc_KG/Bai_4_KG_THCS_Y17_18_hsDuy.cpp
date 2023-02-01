@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
+
 char mangA[26];
-int mangB[]={};
-int mangC[]={};
+int mangB[];
+int mangC[];
 int N=5;
 int M=0, tam=0, dem=0, dem2=0, dem3=0, temp=0;
 string chuoi="", chuoi2="";
+
 int main(){
     int i=65;
     while(i<91){

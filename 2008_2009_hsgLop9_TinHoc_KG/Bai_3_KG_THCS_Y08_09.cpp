@@ -10,6 +10,7 @@ int n, k, xeTaxi, xeLam;
 int D, Dx, Dy; // Khai báo ba định thức của hệ phương trình
 //x+y=n
 //4x+3y=k
+
 int main(){
     printf("Nhap n = "); // Tương đương với cout << "Nhap n = "
     scanf("%d", &n); // Gần tương đương với cin >> n;
@@ -25,4 +26,5 @@ int main(){
     }else{
         printf("Khong tim duoc so xe Taxi va xe Lam thoa yeu cau!");
     }
+    return 0;
 }

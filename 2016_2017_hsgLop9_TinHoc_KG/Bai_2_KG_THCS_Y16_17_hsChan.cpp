@@ -5,6 +5,7 @@ string s,x;
 int main(){
     cout<<"Nhap xau 1:"; cin>>s;
     cout<<"Nhap xau 2:"; cin>>x;
+    //Chuyển đổi toàn bộ kí tự sang in thường
     for(int i=0; i<s.length(); i++) s[i] = tolower(s[i]);
     for(int i=0; i<x.length(); i++) x[i] = tolower(x[i]);
     char temp;
@@ -44,7 +45,5 @@ int main(){
     }else{
         cout<<"Hai xau khong la ban be"<<endl;
     }
-
-
-return 0;
+    return 0;
 }

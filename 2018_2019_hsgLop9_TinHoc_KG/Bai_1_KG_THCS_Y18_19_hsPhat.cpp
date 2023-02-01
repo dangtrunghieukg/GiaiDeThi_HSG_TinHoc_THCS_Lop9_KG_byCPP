@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int N, tam;
 
 bool Palindrome(int N)
@@ -42,5 +43,5 @@ int main ()
             tam++;
         }
     }
-return 0;
+    return 0;
 }

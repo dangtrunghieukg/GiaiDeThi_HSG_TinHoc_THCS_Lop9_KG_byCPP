@@ -1,7 +1,8 @@
 #include <iostream>
 #define maxPhanTu 10000001
 using namespace std;
-int arrTanSo[maxPhanTu] = {0};
+
+int arrTanSo[maxPhanTu];
 int arrA[maxPhanTu];
 int n, soMax=0, dem=0, soLanMax=0, giaTriLanMax;
 int main(){

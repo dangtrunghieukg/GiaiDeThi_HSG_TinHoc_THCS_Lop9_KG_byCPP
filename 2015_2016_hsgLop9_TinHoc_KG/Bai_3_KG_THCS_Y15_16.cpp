@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int arrTanSo[10]={0};
+int arrTanSo[10];
 int dem=0, chuSo;
 string strIn;
 

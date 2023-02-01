@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int arrTam[5] = {5, 5, 6, 8, 15};
 
 //Xây dựng hàm kiểm tra số nguyên tố

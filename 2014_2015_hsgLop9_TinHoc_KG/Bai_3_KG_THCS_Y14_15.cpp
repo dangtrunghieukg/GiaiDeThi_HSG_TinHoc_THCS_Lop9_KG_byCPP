@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 vector<int> vtA;
 int n, soNhap, viTriXoa;
 int main(){

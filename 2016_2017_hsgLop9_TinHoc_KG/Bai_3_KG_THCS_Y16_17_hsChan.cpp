@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int arrA[100]={0};
+
+int arrA[100];
 int main(){
     int N;
     cout <<"Nhap N: "; cin >>N;

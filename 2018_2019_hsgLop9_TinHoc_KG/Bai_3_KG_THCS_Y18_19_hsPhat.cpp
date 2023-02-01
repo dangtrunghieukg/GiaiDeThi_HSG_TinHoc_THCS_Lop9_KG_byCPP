@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int A[1000];
 int N, dem, maxx;
 int main()
@@ -34,5 +35,5 @@ int main()
         else dem=0;
     }
 
-return 0;
+    return 0;
 }

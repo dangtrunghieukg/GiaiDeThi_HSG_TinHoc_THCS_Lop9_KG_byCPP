@@ -1,6 +1,6 @@
-
 #include <iostream>
 using namespace std;
+
 int N,tam=0;
 string chuoi="", chuoi2="";
 int main(){

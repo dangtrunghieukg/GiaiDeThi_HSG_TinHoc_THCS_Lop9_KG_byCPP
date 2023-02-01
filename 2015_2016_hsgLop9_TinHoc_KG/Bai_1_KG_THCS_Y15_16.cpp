@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int X, gio, phut, giay;
 int main(){
     cout << "Man hinh 1: "; cin >> X;

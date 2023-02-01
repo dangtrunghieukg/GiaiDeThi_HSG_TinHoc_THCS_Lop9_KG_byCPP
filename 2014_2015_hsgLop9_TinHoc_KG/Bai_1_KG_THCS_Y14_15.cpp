@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 string inputString;
 int dem=0, tongSoLe=0, chuSo;
 int main(){

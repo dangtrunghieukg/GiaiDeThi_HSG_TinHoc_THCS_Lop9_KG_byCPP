@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
@@ -42,4 +41,5 @@ int main(){
             cout << "Sau "<<demXuoi<<" nua thi tuoi con bang 1/2 tuoi bo";
         }
     }
+    return 0;
 }

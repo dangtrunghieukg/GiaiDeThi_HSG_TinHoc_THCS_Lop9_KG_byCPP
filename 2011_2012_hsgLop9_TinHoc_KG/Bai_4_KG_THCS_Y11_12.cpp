@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int aTraLoi, bTraLoi=-1, dem=0;
 int soA, soM, soB;
 

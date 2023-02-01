@@ -1,10 +1,11 @@
 #include<iostream>
 #include<algorithm>
 #include<vector>
-
 using namespace std;
+
 vector<int> vtA;
 int n, soNhap, soChen;
+
 int main(){
     cout << "Nhap vao so n = "; cin >> n;
     for(int i=0; i<n; i++){

@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 //Khai báo các chữ số các hàng.
 string arrHangDonVi[10]={"khong","mot","hai","ba","bon","nam","sau","bay","tam","chin"};
 string arrHangChuc[10]={"linh","muoi","hai muoi","ba muoi","bon muoi","nam muoi","sau muoi","bay muoi","tam muoi","chin muoi"};

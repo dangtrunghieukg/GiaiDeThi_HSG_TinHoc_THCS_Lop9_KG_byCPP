@@ -1,6 +1,5 @@
 #include<iostream>
 #define M 1000
-
 using namespace std;
 
 unsigned long long arrFibo[M];

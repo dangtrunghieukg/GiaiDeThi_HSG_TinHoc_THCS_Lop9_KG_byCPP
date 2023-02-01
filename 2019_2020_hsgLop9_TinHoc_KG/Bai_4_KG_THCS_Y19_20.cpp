@@ -1,9 +1,9 @@
 #include <iostream>
-
 using namespace std;
+
 string strInput;
-int arrHoanViN[100] = {0};
-int arrMaHoa[100] = {0};
+int arrHoanViN[100];
+int arrMaHoa[100];
 int n;
 int main(){
     cout << "Nhap xau: "; getline(cin, strInput);

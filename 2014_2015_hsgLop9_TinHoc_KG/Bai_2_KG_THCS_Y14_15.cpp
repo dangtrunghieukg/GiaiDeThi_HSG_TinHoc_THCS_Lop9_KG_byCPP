@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 string strInput;
 void XoaTrai(string &s){
     while(s[0]==' '){

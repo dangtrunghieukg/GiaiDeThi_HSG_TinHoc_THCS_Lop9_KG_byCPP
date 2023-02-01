@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cmath>
-int arrNgTo1[2000]={0};
-int arrNgTo2[1000]={0};
 using namespace std;
+
+int arrNgTo1[2000];
+int arrNgTo2[1000];
 bool ktrSoNgTo(int x);
 int main(){
     int K=2;
@@ -32,7 +33,7 @@ int main(){
             break;
         }
    }
-return 0;
+    return 0;
 }
 bool ktrSoNgTo(int x){
     int n=x;

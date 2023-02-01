@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 bool isNguyenTo(int N){
     bool flag = true;
     if(N<=1) return false;

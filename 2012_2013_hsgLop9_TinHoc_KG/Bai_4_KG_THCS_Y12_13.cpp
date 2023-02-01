@@ -1,8 +1,10 @@
 #include <iostream>
 #include <iomanip>
+using namespace std;
+
 double a, r1,r2, tongTien;
 int t, t1, t2;
-using namespace std;
+
 
 int main(){
     r1 = 2.0/100.0; //2%/3thang

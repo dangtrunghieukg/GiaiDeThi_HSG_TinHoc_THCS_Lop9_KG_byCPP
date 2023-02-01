@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 bool isHoanHao(int n, string &phanTich)
 {
     int tong =0;

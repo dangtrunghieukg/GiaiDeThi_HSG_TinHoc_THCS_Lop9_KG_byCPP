@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int UCLN(int a, int b){

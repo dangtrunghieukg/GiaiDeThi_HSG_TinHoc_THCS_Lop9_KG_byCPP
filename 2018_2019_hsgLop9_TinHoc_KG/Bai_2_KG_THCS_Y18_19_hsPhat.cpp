@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 bool snt(int x );
 bool ssnt(int n);
 int N, dau, cuoi, tam, dem;
+
 int main()
 {
     cout << "Nhap N:"; cin >> N;
@@ -20,7 +22,7 @@ int main()
     }
     cout << endl;
     cout << "Co tat ca " << dem << " so sieu so nguyen to co " << N << " chu so";
-return 0;
+    return 0;
 }
 bool snt(int x )
 {
@@ -38,7 +40,7 @@ bool co = true;
             }
         }
     }
-return co;
+    return co;
 }
 bool ssnt(int n)
 {
@@ -55,5 +57,5 @@ bool co=true;
         }
         n=n/10;
     }
-return co;
+    return co;
 }

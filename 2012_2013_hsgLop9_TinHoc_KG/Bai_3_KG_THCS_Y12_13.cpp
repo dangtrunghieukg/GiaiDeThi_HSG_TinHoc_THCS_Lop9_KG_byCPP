@@ -2,8 +2,8 @@
 #define M 1000001
 using namespace std;
 
-int arrTanSo[M]={0};
-bool arrDaXuat[M]={0};
+int arrTanSo[M];
+bool arrDaXuat[M];
 int arrA[M];
 int N;
 

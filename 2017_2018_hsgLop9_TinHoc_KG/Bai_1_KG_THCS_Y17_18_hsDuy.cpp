@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 bool ktraSo(int N);
 int N;
 string chuoi="";
+
 int main(){
     cout << "Nhap N: "; cin >> N;
     if(ktraSo(N)==true){

@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int GiaiThua(int N){
     if (N<0) return -1;
     else if (N==0) return 1;
@@ -22,7 +22,7 @@ int ToHopCkn(int k, int n){
 }
 //Thuật toán liệt kê Tổ hợp chập k của n phần tử
 #define maxN  20
-int x[maxN]={0};
+int x[maxN];
 void printArray(int a[], int n){
 	for (int i = 1; i <= n; i++){
 		cout << a[i] <<" ";

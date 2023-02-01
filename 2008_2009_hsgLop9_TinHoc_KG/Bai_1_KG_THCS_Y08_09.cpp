@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
 int n, k;
-int arrWaitTime[2000000]={0};
+int arrWaitTime[2000000];
 
 int main(){
     cout << " Nhap n = "; cin >> n;

@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int dem20kg=0, dem10kg=0, dem5kg=0, dem1kg=0, X;
 int main(){
     cout << "Nhap so kg gao X: "; cin >> X;

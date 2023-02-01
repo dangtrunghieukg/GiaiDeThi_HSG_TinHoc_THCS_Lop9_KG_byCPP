@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
+
 int A[100];
 int N, tam, vitri;
+
 int main()
 {
     cout << "Nhap N="; cin >> N;

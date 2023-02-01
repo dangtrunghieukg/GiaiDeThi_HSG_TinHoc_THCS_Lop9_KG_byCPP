@@ -2,9 +2,9 @@
 
 using namespace std;
 int n, k, X, Y;
-int arrBool[20] = {0};
+int arrBool[20];
 int arrHoanVi[20];
-int arrChuaTatCaHoanVi[999999]={0};
+int arrChuaTatCaHoanVi[999999];
 int demSoHoanVi = 0;
 string strTemp = "";
 void XuatHoanVi(){
@@ -36,7 +36,7 @@ int main(){
     Try(1);
     bool flag = false;
     for(int i=0; i<demSoHoanVi; i++){
-        if(X<arrChuaTatCaHoanVi[i] && arrChuaTatCaHoanVi[i]%k==0){
+        if(X<arrChuaTatCaHoanVi[i] && arrChuaTatCaHoanVi[i] % k==0){
             Y = arrChuaTatCaHoanVi[i];
             flag = true;
             break;

@@ -1,10 +1,9 @@
 #include <iostream>
 #define maxPhanTu 10000001
-
 using namespace std;
 
-int arrA[maxPhanTu] = {0};
-int arrB[maxPhanTu] = {0};
+int arrA[maxPhanTu];
+int arrB[maxPhanTu];
 int n, m;
 int main(){
     cout << "Nhap so phan tu mang A, n="; cin >> n;

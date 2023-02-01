@@ -1,6 +1,6 @@
 #include<iostream>
-
 using namespace std;
+
 int N, tong=0;
 string strTong="";
 bool phanTichOk = false;

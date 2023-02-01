@@ -2,6 +2,7 @@
 #include<cmath>
 #include<iomanip>
 //Hàm setprecision(n) chỉ định hiển thị đến n chữ số thập phân.
+//Bài này không dùng using namespace std, thì trước đó có tiền tố std::
 float a, b, c, delta;
 
 void GiaiPtBacI(float a, float b){

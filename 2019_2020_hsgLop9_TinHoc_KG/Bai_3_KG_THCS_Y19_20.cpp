@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 //Từ ví dụ ta thấy tổng theo hàng = n^2
 //Tổng theo cột bằng 2*n
 

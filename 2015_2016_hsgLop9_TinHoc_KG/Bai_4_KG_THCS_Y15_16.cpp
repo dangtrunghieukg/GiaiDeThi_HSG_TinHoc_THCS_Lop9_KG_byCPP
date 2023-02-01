@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 string strNhap;
 int demTu=0, demKiTu=0, demKiTuMax=0;
 void ChuanHoaChuoi(string &s){
