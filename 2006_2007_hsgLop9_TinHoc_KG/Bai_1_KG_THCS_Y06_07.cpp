@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int N, doCaoMax, Xn=0, Yn=0;
 int main(){
     cout << "Nhap N = "; cin >> N;

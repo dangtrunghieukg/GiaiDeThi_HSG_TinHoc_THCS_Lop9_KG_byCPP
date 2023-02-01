@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 int k = 4;
 int soTriBo=0;
 vector<int> vtTribo = {0, 1, 1, 2};
 int N, tong = 0;
+
 int main(){
     cout << "Nhap N="; cin >> N;
     while(soTriBo<=N){

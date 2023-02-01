@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int k, dem = 0;
 int indexK;
 string strDem = "0";
